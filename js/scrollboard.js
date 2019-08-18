@@ -52,7 +52,7 @@ function getSubmitList(tt) {
     $.ajax({
         type: "GET",
         content: "application/x-www-form-urlencoded",
-        url: "http://acm.bit.edu.cn/api/v4/contests/9/scoreboard",
+        url: "https://acm.bit.edu.cn/api/v4/contests/9/scoreboard",
         dataType: "json",
         data: {},
         async: false,
@@ -119,7 +119,7 @@ function getTeamList() {
     $.ajax({
         type: "GET",
         content: "application/x-www-form-urlencoded",
-        url: "http://acm.bit.edu.cn/api/v4/contests/9/teams",
+        url: "https://acm.bit.edu.cn/api/v4/contests/9/teams",
         dataType: "json",
         async: false,
         data: {},
